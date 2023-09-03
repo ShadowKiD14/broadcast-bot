@@ -9,12 +9,8 @@ import os
 from pyrogram import Client
 
 
-if bool(os.environ.get("ENV", False)):
     from sample_config import Config
     from sample_config import LOGGER
-else:
-    from config import Config
-    from config import LOGGER
 
 
 class Bot(Client):
