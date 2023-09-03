@@ -9,8 +9,8 @@ import os
 from pyrogram import Client
 
 
-    from sample_config import Config
-    from sample_config import LOGGER
+from sample_config import Config
+from sample_config import LOGGER
 
 
 class Bot(Client):
